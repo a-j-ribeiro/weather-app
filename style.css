@@ -171,8 +171,8 @@
     background-color: rgba(60, 60, 60, 0.2);
     border: white solid;
     border-width: 1.5px 0.5px 0.5px 1.5px;
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
     box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.7);
   }
   
