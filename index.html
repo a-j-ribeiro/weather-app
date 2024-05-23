@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+<body>
+    
+  <div class='superMainContainer'>
+    <div class="bubbles-div2">
+      <div class="bubble-1"></div>
+      <div class="bubble-2"></div>
+      <div class="bubble-3"></div>
+      <div class="bubble-4"></div>
+      <div class="bubble-5"></div>
+      <div class="bubble-6"></div>
+      <div class="bubble-7"></div>
+    </div>
+
+    <div class='titleBar'>
+      <h1 class='titleBarText'>Weather App</h1>
+    </div>
+  
+    <div class='mainContainer'>
+  
+        <div class='iconInfoContainer'>
+          <img class='weatherIcon'>
+    
+          <div class='cityTempDescription'>
+              <h1 class='location'></h1>
+    
+            <div class='tempDescCont'>
+              <div class='tempContainer'>
+                <img class='tempIcon' src='img/temperature-svgrepo-com.png' />
+                <h1></h1>
+                <p class='tempText'></p>
+              </div>
+    
+              <div class='descriptionContainer'>
+                <img class='descriptionIcon' src='img/info-circle-svgrepo-com.png' />
+                <p class='descriptionText'>
+                  <p></p>
+                </p>
+              </div>
+            </div>
+          </div>
+    
+        </div>
+  
+        <div class='dateHumidityWindSpeed'>
+          <div class='dateContainer'>
+            <p class='divTitle'>Coordinates</p>
+            <img class='dateIcon' src='img/compass-big-svgrepo-com.png' />
+            <div class="coordinates">
+              <p class='latitudeText'>Lat:</p>
+              <p class='longitudeText'>Lon:</p>
+            </div>
+          </div>
+  
+          <div class='humidityContainer'>
+            <p class='divTitle'>Humidity</p>
+            <img class='humidityIcon' src='img/waterdrops-svgrepo-com.png' />
+            <p class='humidityText'></p>
+          </div>
+  
+          <div class='windSpeedContainer'>
+            <p class='divTitle'>Wind Speed</p>
+            <img class='windSpeedIcon' src='img/wind-svgrepo-com.png' />
+            <p class='windSpeedText'> MPH</p>
+          </div>
+
+        </div>
+
+        <div class="searchBarMain">
+          <img class="searchIcon" src="img/search-svgrepo-com.png" />
+          <input class='searchBar' placeholder="Enter Location...">
+        </div>
+  </div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
